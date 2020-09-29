@@ -1,0 +1,6 @@
+#accounts {
+	margin: 0.6rem;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
