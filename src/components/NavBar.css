@@ -1,11 +1,9 @@
 nav {
 	margin: 0 5px 0 5px;
-	font-family: 'Arial';
 	width: 100%;
 }
 
 nav span.fas.fa-bars {
-	text-align: left;
 	margin: 0.4rem;
 	font-size: 2rem;
 }
@@ -26,14 +24,12 @@ nav ul.nav-list.active {
 nav ul li {
 	font-size: 1.6rem;
 	padding: 0 0.6rem 0.6rem;
+	border-radius: 3px;
 	margin: 0;
 	margin-bottom: 0.3rem;
 }
 
 .nav-link {
-	position: relative;
-	top: 0;
-	left: 0;
 	padding: 0.3rem;
 	display: flex;
 	align-items: center;
@@ -44,29 +40,26 @@ nav ul li {
 	font-size: 1.1rem;
 	cursor: pointer;
 
-	transition-timing-function: ease-in-out;
-	transition-duration: 0.4s;
+	transition: all 0.4s ease-in-out;
 }
 
 .nav-link:hover {
-	top: 5px;
-	left: 5px;
-	background-color: #8fd8d8;
+	background-color: #5bdfeb;
+	transform: translate(0.5rem, 0.5rem);
+}
+
+#company {
+	position: relative;
 }
 
 .companyList {
 	display: none;
 	position: absolute;
 	z-index: 999;
-	top: 2.3rem;
-	left: 1.8rem;
 	background-color: #00c5cd;
 	list-style: none;
 }
 
-#company {
-	position: relative;
-}
 #company button {
 	display: block;
 	width: 100%;
@@ -75,11 +68,13 @@ nav ul li {
 	border: none;
 }
 
-#company button:focus + ul.companyList {
+ul.companyList.active {
 	display: flex;
+	width: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	transform: translate(1rem, 0.8rem);
 }
 
 .companyList li {
@@ -87,6 +82,14 @@ nav ul li {
 }
 
 @media screen and (min-width: 700px) {
+	nav ul li {
+		width: 100%;
+	}
+
+	.nav-link {
+		justify-content: center;
+	}
+
 	nav ul.nav-list,
 	nav ul.active.nav-list {
 		display: flex;

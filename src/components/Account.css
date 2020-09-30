@@ -23,6 +23,7 @@
 .account-card:hover {
 	background-color: turquoise;
 	color: white;
+	transform: scale(1.2);
 }
 
 .account-card-name {

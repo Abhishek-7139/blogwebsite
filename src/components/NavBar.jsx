@@ -3,10 +3,14 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 class NavBar extends React.Component {
-	state = { toggle: false };
+	state = { toggle: false, dropDown: false };
 
 	handleToggle = () => {
 		this.setState({ toggle: !this.state.toggle });
+	};
+
+	handleDropDown = () => {
+		this.setState({ dropDown: !this.state.dropDown });
 	};
 
 	render() {
@@ -20,10 +24,16 @@ class NavBar extends React.Component {
 						</Link>
 					</li>
 					<li id='company'>
-						<button>
+						<button onClick={this.handleDropDown}>
 							<span className='nav-link'>Companies</span>
 						</button>
-						<ul className='companyList'>
+						<ul
+							className={
+								this.state.dropDown
+									? 'companyList active'
+									: 'companyList'
+							}
+						>
 							<li>
 								<Link className='nav-link' to='/apple'>
 									Apple

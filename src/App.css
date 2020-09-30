@@ -1,13 +1,12 @@
 .App {
-	text-align: center;
-	background-image: url('./resources/pics/background.jpg');
-	background-attachment: fixed;
+	background-attachment: none;
+	background-color: rgba(31, 18, 18, 0.534);
 }
 
 header {
 	width: 100%;
 	margin: 0;
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.8rem;
 
 	background-color: #00c5cd;
 	color: white;
@@ -32,12 +31,10 @@ main {
 	height: 100vh;
 }
 
-#description {
-	margin: 0.5rem;
-	padding: 0.5rem;
-	font-size: 1.6rem;
-	border-radius: 10px;
-	background-color: #00c5cd;
+#logos {
+	margin-bottom: 1rem;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .main-logo {
@@ -45,4 +42,51 @@ main {
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
+	animation: 0.4s infinite alternate shake;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes shake {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(1rem);
+	}
+}
+
+#description {
+	margin-bottom: 1rem;
+}
+
+#description,
+#description p {
+	padding: 0.5rem;
+	font-size: 1.6rem;
+	border-radius: 10px;
+	background-color: #00c5cd;
+}
+
+#accounts-section {
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+	border: 3px solid red;
+}
+
+#accounts-section h3.title {
+	font-size: 2rem;
+	color: white;
+}
+
+@media screen and (min-width: 600px) {
+	.App {
+		text-align: center;
+		background-image: url('./resources/pics/background.jpg');
+		background-attachment: fixed;
+	}
+
+	#logos {
+		display: block;
+	}
 }
