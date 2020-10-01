@@ -1,0 +1,39 @@
+footer {
+	padding: 1rem;
+	margin: 1rem 0 0 0;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+#connections {
+	display: flex;
+	width: 100%;
+	padding: 0.5rem;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#logo {
+	width: 100%;
+	padding: 0.5rem;
+	text-align: left;
+}
+
+#logo h2 {
+	font-size: 1.4rem;
+}
+
+#logo h4 {
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+#connections a {
+	text-decoration: none;
+	color: white;
+}
+
+#connections a i {
+	font-size: 1.5rem;
+}

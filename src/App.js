@@ -1,6 +1,8 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import Accounts from './components/Accounts';
+import Form from './components/Form';
+import Foot from './components/Foot';
 import iosd_logo from './resources/pics/iosd.png';
 import nsut_logo from './resources/pics/nsut.png';
 import apple from './resources/pics/apple.png';
@@ -51,7 +53,13 @@ function App() {
 					<h3 className='title'>Most Recent Experiences</h3>
 					<Accounts />
 				</section>
+				<section id='signup'>
+					<Form />
+				</section>
 			</main>
+			<section id='footer'>
+				<Foot />
+			</section>
 		</div>
 	);
 }

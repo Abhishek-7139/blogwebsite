@@ -1,8 +1,14 @@
+.account {
+	text-decoration: none;
+	color: black;
+}
+
 .account-card {
 	margin: 5px;
 	/*border: 3px red solid;*/
 	border-radius: 10%;
 	box-shadow: -5px 5px royalblue;
+	cursor: pointer;
 	background-color: white;
 	padding: 0.6rem;
 	max-width: 300px;

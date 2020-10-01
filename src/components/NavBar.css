@@ -1,6 +1,28 @@
 nav {
 	margin: 0 5px 0 5px;
-	width: 100%;
+}
+
+#nav-span {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+#loginLink {
+	text-decoration: none;
+	color: white;
+	font-size: 1.4rem;
+	margin-left: auto;
+	margin-right: 1rem;
+	margin-bottom: 8px;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	background-color: red;
+	border-radius: 8px;
+	transition: all 240ms ease;
+}
+
+#loginLink:hover {
+	background-color: #ff5555;
+	transition: all 240ms ease;
 }
 
 nav span.fas.fa-bars {
@@ -13,7 +35,6 @@ nav ul.nav-list {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	width: 100%;
 }
 
 nav ul.nav-list.active {
@@ -37,10 +58,10 @@ nav ul li {
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 	cursor: pointer;
 
-	transition: all 0.4s ease-in-out;
+	transition: all 240ms ease-in-out;
 }
 
 .nav-link:hover {
@@ -52,14 +73,6 @@ nav ul li {
 	position: relative;
 }
 
-.companyList {
-	display: none;
-	position: absolute;
-	z-index: 999;
-	background-color: #00c5cd;
-	list-style: none;
-}
-
 #company button {
 	display: block;
 	width: 100%;
@@ -68,26 +81,55 @@ nav ul li {
 	border: none;
 }
 
+.companyList {
+	display: none;
+	position: absolute;
+	z-index: 999;
+	background-color: #00c5cd;
+	list-style: none;
+	border: 3px solid white;
+	border-top: 0;
+	border-radius: 10px;
+}
+
 ul.companyList.active {
 	display: flex;
-	width: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	transform: translate(1rem, 0.8rem);
+	transform: translate(1.2rem, 0.8rem);
 }
 
 .companyList li {
 	width: 100%;
 }
 
+span.nav-link .fa.fa-angle-down {
+	font-size: 1.4rem;
+	transition: all 240ms ease;
+	margin-left: 0.5rem;
+}
+
+span.nav-link .fa.fa-angle-down.rotate {
+	transform: rotate(180deg);
+	transition: all 240ms ease;
+}
+
 @media screen and (min-width: 700px) {
+	#loginLink {
+		position: relative;
+		top: -80px;
+	}
 	nav ul li {
 		width: 100%;
 	}
 
 	.nav-link {
 		justify-content: center;
+	}
+
+	ul.companyList.active {
+		width: 100%;
 	}
 
 	nav ul.nav-list,

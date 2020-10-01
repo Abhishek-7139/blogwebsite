@@ -7,6 +7,7 @@ const Accounts = () => {
 	return (
 		<section id='accounts'>
 			<Account
+				_id='001'
 				name='Mukesh Ambani'
 				company='Microsoft'
 				year='2020'
@@ -14,6 +15,7 @@ const Accounts = () => {
 				avatar={avatar}
 			/>
 			<Account
+				_id='002'
 				name='Mukesh Ambani'
 				company='Microsoft'
 				year='2020'
@@ -21,6 +23,7 @@ const Accounts = () => {
 				avatar={avatar}
 			/>
 			<Account
+				_id='003'
 				name='Mukesh Ambani'
 				company='Microsoft'
 				year='2020'
@@ -28,6 +31,7 @@ const Accounts = () => {
 				avatar={avatar}
 			/>
 			<Account
+				_id='004'
 				name='Mukesh Ambani'
 				company='Microsoft'
 				year='2020'

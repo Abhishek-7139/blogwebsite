@@ -4,7 +4,6 @@
 }
 
 header {
-	width: 100%;
 	margin: 0;
 	margin-bottom: 0.8rem;
 
@@ -16,7 +15,6 @@ span#icons {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
 }
 
 .nav-logo {
@@ -27,8 +25,7 @@ span#icons {
 }
 
 main {
-	width: 100%;
-	height: 100vh;
+	padding: 0 1rem 0 1rem;
 }
 
 #logos {
@@ -71,12 +68,21 @@ main {
 #accounts-section {
 	margin-bottom: 1rem;
 	padding: 0.5rem;
-	border: 3px solid red;
 }
 
 #accounts-section h3.title {
 	font-size: 2rem;
 	color: white;
+}
+
+#signup {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 1rem;
+}
+
+#footer {
+	background-color: #00c5cd;
 }
 
 @media screen and (min-width: 600px) {
@@ -88,5 +94,10 @@ main {
 
 	#logos {
 		display: block;
+	}
+
+	#description,
+	#description p {
+		opacity: 0.8;
 	}
 }
