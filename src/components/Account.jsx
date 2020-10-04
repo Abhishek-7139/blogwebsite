@@ -4,7 +4,7 @@ import './Account.css';
 
 const Account = ({ _id, name, company, year, branch, avatar }) => {
 	return (
-		<Link className='account' to={'/accounts?id=' + _id}>
+		<Link className='account' to={'/blogwebsite/accounts?id=' + _id}>
 			<article className='account-card'>
 				<img src={avatar} alt='avatar' className='account-card-avatar' />
 				<span className='details'>

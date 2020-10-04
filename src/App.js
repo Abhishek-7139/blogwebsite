@@ -23,8 +23,8 @@ function App() {
 			</header>
 			<main>
 				<Switch>
-					<Route path='/login' component={Login} />
-					<Route path='/' component={Home} />
+					<Route path='/blogwebsite/login' component={Login} />
+					<Route path='/blogwebsite' component={Home} />
 				</Switch>
 			</main>
 			<section id='footer'>

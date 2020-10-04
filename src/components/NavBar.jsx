@@ -18,13 +18,13 @@ const NavBar = () => {
 		<nav id='nav-bar'>
 			<span id='nav-span'>
 				<span className='fas fa-bars' onClick={handleToggle} />
-				<Link id='loginLink' to='/login'>
+				<Link id='loginLink' to='/blogwebsite/login'>
 					Log In
 				</Link>
 			</span>
 			<ul className={toggle ? 'nav-list active' : 'nav-list'}>
 				<li>
-					<Link className='nav-link' to='/'>
+					<Link className='nav-link' to='/blogwebsite'>
 						Home
 					</Link>
 				</li>
@@ -44,39 +44,39 @@ const NavBar = () => {
 					</button>
 					<ul className={dropDown ? 'companyList active' : 'companyList'}>
 						<li>
-							<Link className='nav-link' to='/apple'>
+							<Link className='nav-link' to='/blogwebsite/apple'>
 								Apple
 							</Link>
 						</li>
 						<li>
-							<Link className='nav-link' to='/amazon'>
+							<Link className='nav-link' to='/blogwebsite/amazon'>
 								Amazon
 							</Link>
 						</li>
 						<li>
-							<Link className='nav-link' to='/facebook'>
+							<Link className='nav-link' to='/blogwebsite/facebook'>
 								Facebook
 							</Link>
 						</li>
 						<li>
-							<Link className='nav-link' to='google'>
+							<Link className='nav-link' to='/blogwebsite/google'>
 								Google
 							</Link>
 						</li>
 						<li>
-							<Link className='nav-link' to='netflix'>
+							<Link className='nav-link' to='/blogwebsite/netflix'>
 								Netflix
 							</Link>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<Link className='nav-link' to='/blog'>
+					<Link className='nav-link' to='/blogwebsite/blog'>
 						Blog
 					</Link>
 				</li>
 				<li>
-					<Link className='nav-link' to='/contactus'>
+					<Link className='nav-link' to='/blogwebsite/contactus'>
 						Contact Us
 					</Link>
 				</li>
