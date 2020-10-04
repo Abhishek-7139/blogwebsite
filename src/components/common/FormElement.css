@@ -1,0 +1,17 @@
+.formElement {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	margin-bottom: 0.8rem;
+	display: grid;
+	grid-template-columns: 30% auto;
+}
+
+.formElement label {
+	font-family: 'Roboto Slab', serif;
+	margin-right: 1rem;
+}
+
+.formElement input {
+	padding: 0.4rem;
+}

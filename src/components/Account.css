@@ -1,6 +1,8 @@
 .account {
 	text-decoration: none;
 	color: black;
+	display: block;
+	margin: 1rem;
 }
 
 .account-card {

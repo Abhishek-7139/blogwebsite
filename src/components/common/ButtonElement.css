@@ -1,0 +1,23 @@
+.buttonElement {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+div.buttonElement .button {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: 1.2rem;
+	border: none;
+	background-color: #00c5cd;
+	outline: none;
+	width: 100px;
+	border-radius: 5px;
+	padding: 0.4rem;
+	transition: 480ms;
+}
+
+div.buttonElement .button:hover {
+	background-color: #5bdfeb;
+	transition: 480ms;
+}

@@ -24,7 +24,7 @@ const NavBar = () => {
 			</span>
 			<ul className={toggle ? 'nav-list active' : 'nav-list'}>
 				<li>
-					<Link className='nav-link' to='/home'>
+					<Link className='nav-link' to='/'>
 						Home
 					</Link>
 				</li>
