@@ -1,30 +1,25 @@
 {
   "files": {
-    "main.css": "/blogwebsite/static/css/main.0a31c327.chunk.css",
-    "main.js": "/blogwebsite/static/js/main.aa528720.chunk.js",
-    "main.js.map": "/blogwebsite/static/js/main.aa528720.chunk.js.map",
+    "main.css": "/blogwebsite/static/css/main.4eaa5def.chunk.css",
+    "main.js": "/blogwebsite/static/js/main.b1c6588f.chunk.js",
+    "main.js.map": "/blogwebsite/static/js/main.b1c6588f.chunk.js.map",
     "runtime-main.js": "/blogwebsite/static/js/runtime-main.d235bdb4.js",
     "runtime-main.js.map": "/blogwebsite/static/js/runtime-main.d235bdb4.js.map",
-    "static/js/2.5f7385f9.chunk.js": "/blogwebsite/static/js/2.5f7385f9.chunk.js",
-    "static/js/2.5f7385f9.chunk.js.map": "/blogwebsite/static/js/2.5f7385f9.chunk.js.map",
+    "static/js/2.abd20008.chunk.js": "/blogwebsite/static/js/2.abd20008.chunk.js",
+    "static/js/2.abd20008.chunk.js.map": "/blogwebsite/static/js/2.abd20008.chunk.js.map",
     "index.html": "/blogwebsite/index.html",
-    "precache-manifest.408157bda7a1ffe0a9290021e6d4f464.js": "/blogwebsite/precache-manifest.408157bda7a1ffe0a9290021e6d4f464.js",
+    "precache-manifest.e04aff80cb78137c3114215f522624aa.js": "/blogwebsite/precache-manifest.e04aff80cb78137c3114215f522624aa.js",
     "service-worker.js": "/blogwebsite/service-worker.js",
-    "static/css/main.0a31c327.chunk.css.map": "/blogwebsite/static/css/main.0a31c327.chunk.css.map",
-    "static/js/2.5f7385f9.chunk.js.LICENSE.txt": "/blogwebsite/static/js/2.5f7385f9.chunk.js.LICENSE.txt",
-    "static/media/amazon.png": "/blogwebsite/static/media/amazon.771a0986.png",
-    "static/media/apple.png": "/blogwebsite/static/media/apple.fcbcc0ee.png",
-    "static/media/App.css": "/blogwebsite/static/media/bg.dd83eb3a.jpg",
-    "static/media/fb.png": "/blogwebsite/static/media/fb.336be822.png",
+    "static/css/main.4eaa5def.chunk.css.map": "/blogwebsite/static/css/main.4eaa5def.chunk.css.map",
+    "static/js/2.abd20008.chunk.js.LICENSE.txt": "/blogwebsite/static/js/2.abd20008.chunk.js.LICENSE.txt",
     "static/media/iosd-person.png": "/blogwebsite/static/media/iosd-person.370e7df0.png",
-    "static/media/netflix.png": "/blogwebsite/static/media/netflix.28877e42.png",
     "static/media/nsut.png": "/blogwebsite/static/media/nsut.7f81034f.png",
     "static/media/SignupForm.css": "/blogwebsite/static/media/wood.60e62ce3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d235bdb4.js",
-    "static/js/2.5f7385f9.chunk.js",
-    "static/css/main.0a31c327.chunk.css",
-    "static/js/main.aa528720.chunk.js"
+    "static/js/2.abd20008.chunk.js",
+    "static/css/main.4eaa5def.chunk.css",
+    "static/js/main.b1c6588f.chunk.js"
   ]
 }
