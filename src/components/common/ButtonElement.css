@@ -7,13 +7,12 @@
 div.buttonElement .button {
 	font-family: 'Roboto Slab', serif;
 	color: white;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	border: none;
 	background-color: #00c5cd;
 	outline: none;
-	width: 100px;
 	border-radius: 5px;
-	padding: 0.4rem;
+	padding: 0.5rem 1rem;
 	transition: 480ms;
 }
 

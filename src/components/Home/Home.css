@@ -17,12 +17,13 @@
 #hero-text {
 	margin-top: auto;
 	margin-bottom: auto;
+	padding-left: 1rem;
 }
 
 #description {
 	width: 100%;
 	text-align: left;
-	padding: 1rem;
+	padding: 1rem 0;
 	width: auto;
 	font-size: 1.4rem;
 	color: #333;
@@ -34,8 +35,9 @@
 #description-title {
 	width: 100%;
 	line-height: 2rem;
-	font-size: 1.8rem;
-	font-weight: 600;
+	font-size: 2rem;
+	font-weight: 550;
+	text-align: left;
 }
 
 @media only screen and (max-width: 300px) {
@@ -90,9 +92,9 @@
 
 #accounts-section {
 	background-color: #63a4ff;
-	background-image: linear-gradient(315deg, #83eaf1 50%, #63a4ff 50%);
+	background-image: linear-gradient(315deg, #2193b0 20%, #6dd5ed 74%);
 	margin-bottom: 2rem;
-	padding: 1rem;
+	padding: 3rem;
 	text-align: center;
 	overflow: visible;
 }
@@ -100,6 +102,7 @@
 #accounts-section h3.title {
 	font-size: 2rem;
 	color: black;
+	padding: 1rem;
 }
 
 @media only screen and (min-width: 625px) {
@@ -109,5 +112,41 @@
 	display: flex;
 	justify-content: space-around;
 
-	margin-bottom: 2rem;
+	padding: 1rem 0;
+}
+
+#signup-text {
+	display: none;
+}
+
+@media only screen and (min-width: 538px) {
+	#signup-text {
+		width: 40%;
+		flex-grow: 1;
+		margin: 0 1rem;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+#signup-text p {
+	font-size: 2rem;
+	font-weight: 200;
+	color: #00b0ff;
+	text-transform: uppercase;
+	line-height: 4rem;
+	font-family: 'Permanent Marker', cursive;
+}
+
+@media only screen and (min-width: 690px) {
+	#signup-text p {
+		font-size: 2.5rem;
+	}
+}
+
+#signup-form {
+	flex-grow: 2;
+	margin: 0 1rem;
 }

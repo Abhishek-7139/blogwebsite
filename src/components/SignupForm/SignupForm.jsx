@@ -4,16 +4,12 @@ import FormElement from '../common/FormElement';
 import './SignupForm.css';
 
 const SignupForm = () => {
-	const [username, setUsername] = useState('');
-	const [password, setPassword] = useState('');
+	const [rollno, setRollno] = useState('');
 	const [email, setEmail] = useState('');
-	const [confirmPassword, setConfirmPassword] = useState('');
 
 	const formData = {
-		Username: setUsername,
+		Rollno: setRollno,
 		Email: setEmail,
-		Password: setPassword,
-		ConfirmPassword: setConfirmPassword,
 	};
 
 	const handleChange = (e) => {
@@ -22,20 +18,20 @@ const SignupForm = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		console.log(username);
+		/*console.log(username);
 		console.log(email);
 		console.log(password);
-		console.log(confirmPassword);
+		console.log(confirmPassword);*/
 	};
 
 	const elements = [
 		{
-			name: 'Username',
-			label: 'Username',
+			name: 'Rollno',
+			label: 'NSUT Roll-number',
 			type: 'text',
-			_id: 'username',
-			placeholder: 'Username',
-			value: username,
+			_id: 'rollno',
+			placeholder: 'NSUT Roll-number',
+			value: rollno,
 		},
 		{
 			name: 'Email',
@@ -45,27 +41,11 @@ const SignupForm = () => {
 			placeholder: 'abc@example.com',
 			value: email,
 		},
-		{
-			name: 'Password',
-			label: 'Password',
-			type: 'password',
-			_id: 'password',
-			placeholder: 'Password',
-			value: password,
-		},
-		{
-			name: 'ConfirmPassword',
-			label: 'Confirm Password',
-			type: 'password',
-			_id: 'confirmPassword',
-			placeholder: 'Re-enter Password',
-			value: confirmPassword,
-		},
 	];
 
 	return (
 		<form>
-			<h3 id='form-title'>Sign Up to our Newsletter</h3>
+			<h3 id='form-title'>Sign Up for Subscription</h3>
 			{elements.map((element, index) => {
 				return (
 					<FormElement

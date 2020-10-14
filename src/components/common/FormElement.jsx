@@ -4,7 +4,6 @@ import './FormElement.css';
 const FormElement = ({ element }) => {
 	return (
 		<div className='formElement'>
-			<label htmlFor={element._id}>{element.label}</label>
 			<input
 				type={element.type}
 				id={element._id}

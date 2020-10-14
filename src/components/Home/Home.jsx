@@ -130,7 +130,12 @@ const Home = () => {
 				<Accounts />
 			</section>
 			<section id='signup'>
-				<SignupForm />
+				<div id='signup-form'>
+					<SignupForm />
+				</div>
+				<div id='signup-text'>
+					<p>Never miss anything with our newsletters!</p>
+				</div>
 			</section>
 		</React.Fragment>
 	);

@@ -8,7 +8,7 @@ const Accounts = () => {
 		<section id='accounts'>
 			<Account
 				_id='001'
-				name='Mukesh Ambani'
+				name='Rohan Kumar'
 				company='Microsoft'
 				year='2020'
 				branch='COE'
@@ -16,23 +16,23 @@ const Accounts = () => {
 			/>
 			<Account
 				_id='002'
-				name='Mukesh Ambani'
-				company='Microsoft'
-				year='2020'
-				branch='COE'
+				name='Mukesh Shah'
+				company='Nvidia'
+				year='2019'
+				branch='ECE'
 				avatar={avatar}
 			/>
 			<Account
 				_id='003'
-				name='Mukesh Ambani'
-				company='Microsoft'
+				name='Vatsal Dhar'
+				company='Google'
 				year='2020'
 				branch='COE'
 				avatar={avatar}
 			/>
 			<Account
 				_id='004'
-				name='Mukesh Ambani'
+				name='Mayank Sharma'
 				company='Microsoft'
 				year='2020'
 				branch='COE'

@@ -8,11 +8,11 @@
 .account-card {
 	margin: 5px;
 	border-radius: 10%;
-	box-shadow: 0 0 5px white;
+	box-shadow: 0 0 8px white;
 	line-height: 1.5rem;
 	cursor: pointer;
 	background-color: white;
-	padding: 0.6rem;
+	padding: 1rem;
 	max-width: 300px;
 	min-width: 100px;
 	display: grid;
@@ -23,9 +23,9 @@
 	grid-gap: 5px;
 	align-items: center;
 	justify-content: center;
-
-	transition-timing-function: ease-in-out;
-	transition-duration: 0.3s;
+	transform: skewY(2deg);
+	transition-timing-function: linear;
+	transition-duration: 100ms;
 }
 
 .account-card:hover {
