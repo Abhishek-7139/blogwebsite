@@ -116,7 +116,7 @@ const Home = () => {
 						</g>
 					</svg>
 				</div>
-				<div>
+				<div id='hero-text'>
 					<h1 id='description-title'>IOSD Tech Blogs</h1>
 					<p id='description'>
 						We are here to Connect you with your seniors to get technical

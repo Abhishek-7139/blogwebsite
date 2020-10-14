@@ -1,16 +1,23 @@
 .formElement {
-	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
-	height: 30px;
-	margin-bottom: 0.8rem;
+	margin-bottom: 1rem;
 	display: grid;
-	grid-template-columns: 30% auto;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 0.5rem;
+}
+
+@media only screen and (min-width: 380px) {
+	.formElement {
+		grid-template-columns: 30% 1fr;
+		grid-template-rows: 1fr;
+		height: 30px;
+	}
 }
 
 .formElement label {
 	font-family: 'Roboto Slab', serif;
-	margin-right: 1rem;
+	font-size: 1.2rem;
 }
 
 .formElement input {
