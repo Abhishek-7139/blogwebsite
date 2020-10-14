@@ -38,7 +38,7 @@ const SignupForm = () => {
 			label: 'Email',
 			type: 'email',
 			_id: 'email',
-			placeholder: 'abc@example.com',
+			placeholder: 'Email',
 			value: email,
 		},
 	];

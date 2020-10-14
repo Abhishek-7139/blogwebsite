@@ -23,6 +23,10 @@ footer {
 	text-align: left;
 }
 
+#logo * {
+	padding: 0.2rem 0;
+}
+
 #logo h2 {
 	font-size: 1.4rem;
 }
@@ -36,7 +40,7 @@ footer {
 	text-decoration: none;
 	color: white;
 	display: block;
-	margin: 0.8rem;
+	margin: 1.2rem;
 }
 
 #connections a i {

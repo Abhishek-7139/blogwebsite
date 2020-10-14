@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<React.Fragment>
 			<section id='hero'>
-				<div>
+				<div id='hero-svg'>
 					<svg
 						width='300'
 						height='275'

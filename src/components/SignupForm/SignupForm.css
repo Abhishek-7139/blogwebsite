@@ -1,7 +1,7 @@
 form {
 	font-family: 'Roboto Slab', serif;
 	border: 3px solid #00c5cd;
-
+	border-radius: 1rem;
 	padding: 1rem;
 	/*background-image: url('../../resources/pics/wood.jpg');*/
 	display: flex;
