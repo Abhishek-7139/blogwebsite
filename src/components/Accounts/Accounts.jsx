@@ -1,6 +1,6 @@
 import React from 'react';
-import Account from './Account';
-import avatar from '../resources/pics/iosd-person.png';
+import Account from '../Account/Account';
+import avatar from '../../resources/pics/iosd-person.png';
 import './Accounts.css';
 
 const Accounts = () => {

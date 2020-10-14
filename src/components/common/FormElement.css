@@ -1,5 +1,6 @@
 .formElement {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	height: 30px;
 	margin-bottom: 0.8rem;

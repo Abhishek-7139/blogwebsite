@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import FormElement from './common/FormElement';
-import ButtonElement from './common/ButtonElement';
+import FormElement from '../common/FormElement';
+import ButtonElement from '../common/ButtonElement';
 
 import './Login.css';
 
